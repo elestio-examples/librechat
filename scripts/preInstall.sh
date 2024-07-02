@@ -18,7 +18,7 @@ CREDS_IV=${CREDS_IV:-`openssl rand -hex 32`}
 
 
 
-cat << EOT >> ./scripts/config.sh
+cat << EOT >> ./.env
 
 MEILI_MASTER_KEY=${MEILI_MASTER_KEY}
 JWT_SECRET=${JWT_SECRET}
