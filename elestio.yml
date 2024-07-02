@@ -123,6 +123,8 @@ environments:
     value: "LibreChat"
   - key: "EMAIL_FROM"
     value: "[DOMAIN]@vm.elestio.app"
+  - key: "OPENAI_API_KEY="
+    value: "<YOUR_OPENAI_API_KEY>"
 
 config:
   runTime: "dockerCompose"
