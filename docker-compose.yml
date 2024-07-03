@@ -3,7 +3,7 @@ version: "3.4"
 services:
   api:
     user: 0:0
-    image: ghcr.io/danny-avila/librechat:latest
+    image: ghcr.io/danny-avila/librechat:${SOFTWARE_VERSION_TAG}
     ports:
       - "172.17.0.1:25023:3080"
     depends_on:
